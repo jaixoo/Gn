@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Special Good Night Message</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #171717;
+    color: #fff;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .message {
+    text-align: center;
+    animation: fadeIn 2s ease forwards;
+    opacity: 0;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    animation: float 4s ease infinite;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="message">
+    <h1>Good Night, My Love!</h1>
+    <p>As the night blankets the world, may your dreams be filled with love and happiness.</p>
+    <img src="https://media.giphy.com/media/26n6YNqyGD8B7ubja/giphy.gif" alt="Stars and moon animated gif">
+    <p>Remember, you're the brightest star in my sky. Sweet dreams!</p>
+  </div>
+</div>
+</body>
+</html>
